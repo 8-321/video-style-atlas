@@ -1,0 +1,239 @@
+{
+  "schema": "video-style-library-manifest@1",
+  "root": "E:/视频工厂/10-风格库",
+  "updated": "2026-11-04",
+  "file_count": 46,
+  "total_bytes": 5669368,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 10030,
+      "sha256": "45A4ABC7A5562E830500C7FD1A268A2A6D3690502BFBEB28A05D90FD32FADCF1"
+    },
+    {
+      "path": "index.html",
+      "bytes": 31895,
+      "sha256": "0AE815307A4B3F21B9377A28B7439E781120F8FED7EEBACE8F2033C4FFCEF77E"
+    },
+    {
+      "path": "styles.json",
+      "bytes": 47646,
+      "sha256": "AF3F2E4B4B0E255CE05C903124DDBB765A2B6CF7DE22C099927CF7ADEAAB805A"
+    },
+    {
+      "path": "styles.json.bak-20261110",
+      "bytes": 44932,
+      "sha256": "9AB0A616A2B67548B197088BEC77D12584BD2A9195307E3461CE72BC27804175"
+    },
+    {
+      "path": "卡片/S01-纸张拼贴-VOX.md",
+      "bytes": 5910,
+      "sha256": "858D19F425A4B59E40592AE1363186B741DBC2B4C8D5AAC24508C83BD7115352"
+    },
+    {
+      "path": "卡片/S02-暖木档案桌.md",
+      "bytes": 5756,
+      "sha256": "38A8C095A797895B889AC05FB53D6668FCA3BDBF68907AE7B90215159552C885"
+    },
+    {
+      "path": "卡片/S03-微缩定格.md",
+      "bytes": 6274,
+      "sha256": "87DF07A28BD0B00B8B664A10A3AD2E61E344A6374D81373478C2263441777982"
+    },
+    {
+      "path": "卡片/S04-双轨字幕-人物史诗.md",
+      "bytes": 6510,
+      "sha256": "74F60600FBE4610927F92EB4505ABDBB7D66CA45B01FE5350E6F7B7B428C3F29"
+    },
+    {
+      "path": "卡片/S05-黑金知识解说.md",
+      "bytes": 4785,
+      "sha256": "1DC45EADB012FD9BAA0789C91758D5DBE4FA043F567A2667F1A2854ABEBB61D5"
+    },
+    {
+      "path": "卡片/S06-暖棕电影感.md",
+      "bytes": 5247,
+      "sha256": "7A773F0C2C63B75A9E1EEFE755ED3A01978BF586FB42CD0804C681C4B3E5F011"
+    },
+    {
+      "path": "卡片/S07-巨字卡点.md",
+      "bytes": 4789,
+      "sha256": "2429F8EC958B197245C2057C7BBF32983CA749BE4427BE2BFA2290557A4DB8D7"
+    },
+    {
+      "path": "卡片/S08-纯黑设备发布.md",
+      "bytes": 4351,
+      "sha256": "5773F82B3CE004FAF2077AD7AA88799B3A10A90229996ED11AD79E59ECCBFBE1"
+    },
+    {
+      "path": "卡片/S09-暗室档案馆.md",
+      "bytes": 6483,
+      "sha256": "59DB0DB14A7556FF9147BB1180BEB629B041AAE3F743AB6364174BC5B82DB6EE"
+    },
+    {
+      "path": "卡片/S10-胶片化滤镜.md",
+      "bytes": 3822,
+      "sha256": "9FEE5936F2D3FA8226419ECC39AF9406B7B5C750A90264B722F3A0A0242133ED"
+    },
+    {
+      "path": "卡片/S11-AI漫剧.md",
+      "bytes": 14379,
+      "sha256": "83B3C1D26A4FC40ADB5C8036A42BACD456CB95C7803698FC639D439E1151AD28"
+    },
+    {
+      "path": "卡片/S12-扁平动态图形.md",
+      "bytes": 4254,
+      "sha256": "018193331A199CEF44B4C54EF56FC74E7FBC962F7DAB92162663834075F6D820"
+    },
+    {
+      "path": "卡片/S13-吉卜力手绘动画.md",
+      "bytes": 4418,
+      "sha256": "421BB880221F59CF3AF9E9E3DCA68D428A77827D2DEA4E0C34F657FA797BC51D"
+    },
+    {
+      "path": "卡片/S14-高端极简.md",
+      "bytes": 4447,
+      "sha256": "5462A11A122BBF738284C344035F8FEF70E30017AC54A63798B49EAA167E57DE"
+    },
+    {
+      "path": "卡片/S15-极简图解.md",
+      "bytes": 4062,
+      "sha256": "D035C8916C5BD6A28AF62F01FE86CB7146F5598C7705730283B8A67FF26B8334"
+    },
+    {
+      "path": "卡片/S16-四色人格图鉴.md",
+      "bytes": 7774,
+      "sha256": "2FD694AC27A0B6C2BA43E69D1760CD808E1002B210D521F17B9DF049CA770C60"
+    },
+    {
+      "path": "叙事骨架.md",
+      "bytes": 6915,
+      "sha256": "A71F2F3BB8C610B3F7A81C4AB9AB0D8B6ABDF54EBC00F69529DB591F7D782EC0"
+    },
+    {
+      "path": "复刻工作流.md",
+      "bytes": 28763,
+      "sha256": "043BC1E0DB6345D6206EA9298B70144F15E97C6D2D757ABF511BDD370F28C3FA"
+    },
+    {
+      "path": "工具/build_index.py",
+      "bytes": 7046,
+      "sha256": "B286F1134995C8B3DDD307F9D820E2447D5522A661D110A335CDDBD0E938357B"
+    },
+    {
+      "path": "工具/build_previews.py",
+      "bytes": 17162,
+      "sha256": "492DAD8B855F3900395791E5F68938E68F8B3B65BB7D8AC5D4B928D668EE10F8"
+    },
+    {
+      "path": "工具/build_s16_preview.py",
+      "bytes": 1580,
+      "sha256": "0D33562D6470C4EB72AE001C4F9A9947B5DF73990C67C7C2E6E52C11897892B1"
+    },
+    {
+      "path": "工具/rebuild_manifest.py",
+      "bytes": 1182,
+      "sha256": "956B26CFAF30C058EA702619441B2F2271B79AEC5EAE3C7966959EBF869B19DE"
+    },
+    {
+      "path": "模板/风格卡模板.md",
+      "bytes": 1124,
+      "sha256": "BE266C79E361D18DEA0B3014E47A78B6DD3FDDDF0D4E59CAD60C13046C63B875"
+    },
+    {
+      "path": "通用规格.md",
+      "bytes": 4893,
+      "sha256": "C71B0EF1190BEF1A32950FD576A5D2E92B8564790B6631C3E830BBD58A8DF7B2"
+    },
+    {
+      "path": "预览/S01.jpg",
+      "bytes": 346383,
+      "sha256": "F89CB81017EED83E8510E23747C01960D6BFBCB6CF57C948CA3FAC72D3FBEA5C"
+    },
+    {
+      "path": "预览/S02.jpg",
+      "bytes": 163510,
+      "sha256": "5D6D6E57F0031ECE454D80DE8D5290EB07F5814581B0E8522E73AC210198DFB1"
+    },
+    {
+      "path": "预览/S03.jpg",
+      "bytes": 278397,
+      "sha256": "47F67EB8B622B622C71898F227205FA5B5F69E1831F1A671929797915DE1A84B"
+    },
+    {
+      "path": "预览/S04.jpg",
+      "bytes": 269163,
+      "sha256": "2B8607E36C4A8E6B6B6632FEAEAF34CB41024FF319440C473472F8F695A49677"
+    },
+    {
+      "path": "预览/S05.jpg",
+      "bytes": 205069,
+      "sha256": "CEE8226C8C3759D90F07D6F99333BF07A7040E0303D9AF5681A003C29B9E1BF8"
+    },
+    {
+      "path": "预览/S06.jpg",
+      "bytes": 158712,
+      "sha256": "BAA63C05DCD2594CE668B67276AC2485C8DB60B930EC92CDF2E4637D89E44263"
+    },
+    {
+      "path": "预览/S07.jpg",
+      "bytes": 208819,
+      "sha256": "A49915FD325BFEAC1DC459F2A3518F0D61765B733F3472C05AC0B8CA66D446F1"
+    },
+    {
+      "path": "预览/S08.jpg",
+      "bytes": 141258,
+      "sha256": "75C33691172979707CFA3C4A8DA85C9C93B881C005FBE327EE946A8609932232"
+    },
+    {
+      "path": "预览/S09.jpg",
+      "bytes": 121903,
+      "sha256": "E4C4332664A9F8E4F3392D1CF4C7E674C8BE68AB39F96A09D61B6360AF60BB22"
+    },
+    {
+      "path": "预览/S10.jpg",
+      "bytes": 224423,
+      "sha256": "1B0FDEE512C99F281DC954E447CFE897D96CD5A0BD7623585981DDA52A61B8B6"
+    },
+    {
+      "path": "预览/S11.jpg",
+      "bytes": 328119,
+      "sha256": "5FB59E9C15D9AC25704A96B4F926DA90F25634F5F583380D4ED222C7BCF2C1BB"
+    },
+    {
+      "path": "预览/S12.jpg",
+      "bytes": 130782,
+      "sha256": "0EEEB313EE59C7010C36141AB2AB8CAFDE1B72ADF109462386F5B0A70DDDD126"
+    },
+    {
+      "path": "预览/S13.jpg",
+      "bytes": 131624,
+      "sha256": "9076A614C4726A359A6AE89F683635F57CCBE6CEDC305FB978F458CB68985E30"
+    },
+    {
+      "path": "预览/S14.jpg",
+      "bytes": 132780,
+      "sha256": "29DD08DCAC6C8CA9B9549D183DC1329629F20039E677ADE9999F30031F65BE3F"
+    },
+    {
+      "path": "预览/S15.jpg",
+      "bytes": 129276,
+      "sha256": "59EA7598C2ED6F5E07389F9980D90B08FC1F6376C77E009784F3EBFB9C4EF141"
+    },
+    {
+      "path": "预览/S16.jpg",
+      "bytes": 108051,
+      "sha256": "E1E5A4B2BE36B8E25F5E0278363A8F6E177B5F69E4CEE2FF594FAF9C736FACF5"
+    },
+    {
+      "path": "预览/index-html.png",
+      "bytes": 1779425,
+      "sha256": "012F9CE8043181960BC294F81869D78C7942836D22F4DEBE147DAFD6205746B0"
+    },
+    {
+      "path": "预览/index.jpg",
+      "bytes": 515245,
+      "sha256": "E0A0E5BC689DA83391B72595E75D0F03FF83701CE7BA88441CE8626CC48F66ED"
+    }
+  ]
+}

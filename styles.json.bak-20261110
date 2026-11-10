@@ -1,0 +1,1427 @@
+{
+  "schema": "video-style-library@1",
+  "updated": "2026-11-04",
+  "root": "E:/视频工厂/10-风格库",
+  "count": 16,
+  "styles": [
+    {
+      "id": "S01",
+      "name": "纸张拼贴 · VOX 编辑插画",
+      "aliases": [
+        "Vox纸质拼贴",
+        "paper-collage editorial",
+        "剪纸讲解"
+      ],
+      "status": "verified",
+      "one_liner": "把观点做成一张手工拼贴的杂志跨页，让纸片自己动起来。",
+      "best_for": [
+        "2分钟内知识科普",
+        "抽象概念可视化",
+        "冷知识/观点解释"
+      ],
+      "spec": {
+        "aspect": "16:9",
+        "resolution": "1920x1080",
+        "fps": "24/30(跟随素材)",
+        "duration": "25s-2min",
+        "audio": "有",
+        "subtitles": "烧入"
+      },
+      "palette": [
+        {
+          "hex": "#F2E8D5",
+          "name": "奶油纸底"
+        },
+        {
+          "hex": "#D95D39",
+          "name": "陶土橙"
+        },
+        {
+          "hex": "#1F2D50",
+          "name": "深藏蓝"
+        },
+        {
+          "hex": "#E8A33D",
+          "name": "芥末黄"
+        }
+      ],
+      "fonts": [
+        "Microsoft YaHei 46px 白字 1px 黑边"
+      ],
+      "evidence": [
+        {
+          "title": "微波炉怎么把饭热好",
+          "file": "E:/AI视频工程/VOX试验/05_成片/final_captioned.mp4",
+          "duration": 25.0,
+          "resolution": "1920x1080",
+          "fps": 30
+        },
+        {
+          "title": "奥德赛时期",
+          "file": "E:/AI视频工程/VOX-奥德赛时期/05_成片/final_v2_captioned.mp4",
+          "duration": 115.0,
+          "resolution": "1920x1080",
+          "fps": 24
+        },
+        {
+          "title": "MBTI 讲 ESTJ",
+          "file": "E:/AI视频工程/VOX-MBTI-ESTJ/05_成片/final_captioned.mp4",
+          "duration": 25.0,
+          "resolution": "1920x1080",
+          "fps": 30
+        }
+      ],
+      "preview": "预览/S01.jpg",
+      "card": "卡片/S01-纸张拼贴-VOX.md",
+      "prompt_anchor": "Vox风格纸质拼贴编辑插画（paper-collage editorial illustration），16:9横版。手撕纸毛边、透明胶带贴角、半调网点阴影、旧报纸剪贴碎片、大号黑色剪纸中文标题贴在画面上方、明显的纸片投影与层叠关系。配色：奶油纸底#F2E8D5、陶土橙#D95D39、深藏蓝#1F2D50、芥末黄#E8A33D。整体：现代杂志跨页编辑设计感、印刷质感、剪纸几何化造型。禁止：摄影感、3D渲染、渐变光效、写实材质。",
+      "assets": [
+        "E:/AI视频工程/VOX试验/beats.json",
+        "E:/AI视频工程/VOX试验/gen_posters.py",
+        "E:/AI视频工程/VOX试验/assemble.py",
+        "E:/AI沉淀/03-技能/media/vox-collage-video/SKILL.md"
+      ],
+      "qc": [
+        "时长=拍数x每拍秒数",
+        "旁白总时长<=片长60%",
+        "海报标题<=10汉字且无错字",
+        "抽5帧无杂色/无3D感",
+        "字幕不挡主体"
+      ],
+      "pitfalls": [
+        "24fps素材按30fps合成会重复帧",
+        "海报中文会错字需逐字核",
+        "图生视频first-frame只认公网URL",
+        "兜底不要覆盖原图"
+      ]
+    },
+    {
+      "id": "S02",
+      "name": "暖木档案桌 · 纸片木偶",
+      "aliases": [
+        "暗室档案桌",
+        "desk film",
+        "纸片人档案",
+        "小红书档案风"
+      ],
+      "status": "verified",
+      "one_liner": "把知识摊在一张胡桃木桌上，用纸片、老照片和手写批注演给观众看。",
+      "best_for": [
+        "人文观点",
+        "MBTI/历史人物",
+        "思想史/审美话题",
+        "3-5分钟竖屏"
+      ],
+      "spec": {
+        "aspect": "9:16",
+        "resolution": "1080x1920",
+        "fps": 30,
+        "duration": "3-5min",
+        "audio": "有",
+        "subtitles": "烧入"
+      },
+      "palette": [
+        {
+          "hex": "#150f09",
+          "name": "胡桃木桌底"
+        },
+        {
+          "hex": "#fdf8ea",
+          "name": "纸签亮部"
+        },
+        {
+          "hex": "#f0e5cd",
+          "name": "纸签暗部"
+        },
+        {
+          "hex": "#a33224",
+          "name": "批注红"
+        },
+        {
+          "hex": "#2b2118",
+          "name": "墨色"
+        },
+        {
+          "hex": "#ffd79a",
+          "name": "字幕强调"
+        }
+      ],
+      "fonts": [
+        "Noto Serif SC / SimSun",
+        "STXingkai / KaiTi 手写批注",
+        "Noto Sans SC 44px 字幕"
+      ],
+      "evidence": [
+        {
+          "title": "AI 时代最吃香的 MBTI",
+          "file": "E:/AI视频工程/MBTI/productions/ai-mbti/drafts/MBTI-AI-时代-复刻.mp4",
+          "duration": 277.2,
+          "resolution": "1080x1920",
+          "fps": 30,
+          "shots": 41
+        }
+      ],
+      "preview": "预览/S02.jpg",
+      "card": "卡片/S02-暖木档案桌.md",
+      "prompt_anchor": "暗色胡桃木桌，左上硬光，四角压暗，16%胶片颗粒；纸张为米色公版图/手稿，带白边、撕边、胶带；人物为白边纸片贴纸，底部锚定；米色纸签标题条（首词红色）；行书批注；白色黑边字幕。",
+      "assets": [
+        "E:/AI视频工程/MBTI/packages/desk-film/src/index.ts",
+        "E:/AI视频工程/MBTI/productions/ai-mbti/script/spec.json",
+        "E:/AI视频工程/MBTI/productions/ai-mbti/audio/mix.wav"
+      ],
+      "qc": [
+        "1080x1920/30fps/277.2s",
+        "41镜平均6.7s",
+        "字幕不挡人物/不单字断行",
+        "每章有标题条+档案物件",
+        "音画误差<0.1s"
+      ],
+      "pitfalls": [
+        "字幕容器用width:max-content",
+        "纸堆入场0.22s不要从0淡入",
+        "档案编号放相机外固定层",
+        "ASCII批注用印刷体",
+        "片尾标题z-index:9"
+      ]
+    },
+    {
+      "id": "S03",
+      "name": "微缩定格 · 树脂人偶",
+      "aliases": [
+        "微缩定格",
+        "miniature stop-motion",
+        "树脂人偶",
+        "暗色微缩剧场"
+      ],
+      "status": "verified",
+      "one_liner": "把人性实验放进一个2.5头身的树脂微缩场景里，用一束硬光照出阴影。",
+      "best_for": [
+        "心理机制",
+        "人性实验",
+        "社会隐喻",
+        "2-3分钟4:3"
+      ],
+      "spec": {
+        "aspect": "4:3",
+        "resolution": "960x720",
+        "fps": 30,
+        "duration": "2-3min",
+        "audio": "有",
+        "subtitles": "烧入"
+      },
+      "palette": [
+        {
+          "hex": "#E7B96E",
+          "name": "关键词金"
+        },
+        {
+          "hex": "#F2E4CF",
+          "name": "强调米白"
+        },
+        {
+          "hex": "#8BC9E8",
+          "name": "实验蓝"
+        },
+        {
+          "hex": "#D98C62",
+          "name": "转折橙红"
+        },
+        {
+          "hex": "#F5EEE2",
+          "name": "字幕米白"
+        }
+      ],
+      "fonts": [
+        "STSONG.ttf 中文宋体",
+        "arial.ttf 英文"
+      ],
+      "evidence": [
+        {
+          "title": "投射效应",
+          "file": "E:/AI视频工程/MBTI/productions/projection/drafts/projection-final.mp4",
+          "duration": 146.0,
+          "resolution": "960x720",
+          "fps": 30,
+          "lines": 26
+        }
+      ],
+      "preview": "预览/S03.jpg",
+      "card": "卡片/S03-微缩定格.md",
+      "prompt_anchor": "电影感微缩定格动画场景，手工树脂与黏土人偶。宽构图，两个约2.5头身的瘦长人偶完整入镜，坐在深色旧木桌两侧，双臂细长搭在桌沿。窄长蛋形脸、光滑哑光树脂皮肤、脸颊有细微模具接缝，深棕色光滑树脂发帽覆盖额头、带细密竖向梳齿纹，粗黑眉、两颗小黑豆眼、无鼻梁、小椭圆嘴，表情平静克制。背景是米色和纸拉门和深红木框，人物在纸门上投下边缘清晰的巨大黑影。桌上一台微型黄铜电影放映机射出一束可见暖光，旁边有陶茶壶和散落卡片。单一硬质钨丝聚光灯从右上方斜射，强明暗对比，纯黑环境，画面上方留出黑色负空间，空气中悬浮微尘，浅景深，强暗角，35mm胶片颗粒，琥珀与焦糖色调，微缩模型质感。4:3构图，画面中没有任何文字、字母、水印。",
+      "assets": [
+        "E:/AI视频工程/MBTI/productions/projection/assets/*.body.json",
+        "E:/AI视频工程/MBTI/productions/projection/tools/build_projection_svml.py",
+        "E:/AI视频工程/MBTI/productions/projection/script.json",
+        "E:/AI视频工程/MBTI/productions/projection/timing.json"
+      ],
+      "qc": [
+        "960x720/30fps/146s/4380帧",
+        "26句逐句对齐<0.2s",
+        "场景图无文字/无水印",
+        "人偶跨镜一致",
+        "抽6帧暗部不死黑"
+      ],
+      "pitfalls": [
+        "4:3不是16:9",
+        "画面内不要生成文字",
+        "一致性靠reference_image_urls",
+        "别打太亮",
+        "不要现代物品"
+      ]
+    },
+    {
+      "id": "S04",
+      "name": "双轨字幕 · 人物史诗",
+      "aliases": [
+        "双轨字幕",
+        "游梦人物录式",
+        "人物豪赌史诗",
+        "金白红字幕"
+      ],
+      "status": "verified",
+      "one_liner": "金色题注交代何时何地，白色对白推动谁说了什么，红色只留给转折。",
+      "best_for": [
+        "人物传记",
+        "商业史",
+        "失败翻盘",
+        "3分钟横屏"
+      ],
+      "spec": {
+        "aspect": "16:9",
+        "resolution": "1920x1080",
+        "fps": 30,
+        "duration": "3min",
+        "audio": "有",
+        "subtitles": "双轨ASS"
+      },
+      "palette": [
+        {
+          "hex": "#F5F090",
+          "name": "金色题注"
+        },
+        {
+          "hex": "#FFFFFF",
+          "name": "白色对白"
+        },
+        {
+          "hex": "#D8423C",
+          "name": "红色强调"
+        }
+      ],
+      "fonts": [
+        "Microsoft YaHei 84px",
+        "Title 104px"
+      ],
+      "evidence": [
+        {
+          "title": "一场坚持了22年的火星豪赌，最终造就 SpaceX",
+          "file": "E:/AI视频工程/复刻马斯克SpaceX/05_成片/一场坚持了22年火星豪赌_SpaceX.mp4",
+          "duration": 177.64,
+          "resolution": "1920x1080",
+          "fps": 30,
+          "shots": 78,
+          "cjk": 556,
+          "lufs": -16.0
+        }
+      ],
+      "preview": "预览/S04.jpg",
+      "card": "卡片/S04-双轨字幕-人物史诗.md",
+      "prompt_anchor": "AI写实电影剧照，暖调低饱和轻颗粒，35mm电影镜头，浅景深，人物半身/中景，真实皮肤质感，背景压暗，画面留出上方题注区和下方对白区，无文字无水印。",
+      "assets": [
+        "E:/AI视频工程/复刻马斯克SpaceX/productions/mars-gamble/authors/SCRIPT.json",
+        "E:/AI视频工程/复刻马斯克SpaceX/productions/mars-gamble/SHOTS.json",
+        "E:/AI视频工程/复刻马斯克SpaceX/productions/mars-gamble/build/subs.ass",
+        "E:/AI视频工程/复刻马斯克SpaceX/tools/gradelab.py",
+        "E:/AI视频工程/复刻马斯克SpaceX/错题本.md"
+      ],
+      "qc": [
+        "177.6s/78切/平均2.26s",
+        "283字/分",
+        "白字底沿89.35%/金字67.0%",
+        "墨迹高62px",
+        "亮度73.3/饱和31.7/暖偏+9.6",
+        "-16.0 LUFS",
+        "最大同屏题注<=2"
+      ],
+      "pitfalls": [
+        "colorchannelmixer必须16个值",
+        "题注窗串行化",
+        "题注停留读SCRIPT.json不是lines.json",
+        "纯黑底标定字幕",
+        "loudnorm两遍",
+        "ffmpeg表达式f-string"
+      ]
+    },
+    {
+      "id": "S05",
+      "name": "黑金 · 知识解说",
+      "aliases": [
+        "黑金知识解说",
+        "小五狼式",
+        "暗底金字",
+        "深度解说"
+      ],
+      "status": "verified",
+      "one_liner": "黑底上只留金色大字和一张电影暗图，让每一段都像一页摊开的禁书。",
+      "best_for": [
+        "5分钟深度知识",
+        "社会观察",
+        "文化史/游戏史",
+        "横屏长视频"
+      ],
+      "spec": {
+        "aspect": "16:9",
+        "resolution": "1920x1080",
+        "fps": 30,
+        "duration": "5min",
+        "audio": "纯画面无音轨",
+        "subtitles": "无"
+      },
+      "palette": [
+        {
+          "hex": "#000000",
+          "name": "黑底"
+        },
+        {
+          "hex": "#C9A227",
+          "name": "金色"
+        }
+      ],
+      "fonts": [
+        "金色宋楷大字",
+        "白色无衬线字幕"
+      ],
+      "evidence": [
+        {
+          "title": "为什么狼人杀越来越凉",
+          "file": "E:/AI视频工程/狼人杀/05_成片/为什么狼人杀越来越凉_纯画面_1080p30_发布版.mp4",
+          "duration": 310.7,
+          "resolution": "1920x1080",
+          "fps": 30,
+          "lines": 91,
+          "cjk": 1465
+        }
+      ],
+      "preview": "预览/S05.jpg",
+      "card": "卡片/S05-黑金知识解说.md",
+      "prompt_anchor": "深色电影感画面，黑底为主，低饱和，暗部占大面积，单一光源，胶片颗粒，暗角；画面留出金色大字位置，无文字无水印。",
+      "assets": [
+        "E:/AI视频工程/狼人杀/productions/wolf-fade/authors/SCRIPT.md",
+        "E:/AI视频工程/狼人杀/productions/wolf-fade/build/SHOTS.json",
+        "E:/AI视频工程/狼人杀/productions/wolf-fade/assets/mg/ov_positions.json"
+      ],
+      "qc": [
+        "1920x1080/30fps/4:45-5:15",
+        "91行1465字原样",
+        "切点平均3.3s",
+        "黑底占比20-70%",
+        "金色关键词~15处",
+        "纯画面流列表只有video",
+        "黑帧0处"
+      ],
+      "pitfalls": [
+        "禁止矢量图堆积",
+        "人数必须12",
+        "少给手部特写",
+        "英文名TTS要ASR复核",
+        "纯画面查流列表",
+        "黑帧扫描"
+      ]
+    },
+    {
+      "id": "S06",
+      "name": "暖棕电影感 · 实拍长解说",
+      "aliases": [
+        "kele说式",
+        "暖棕长解说",
+        "实拍解说",
+        "抖音长解说"
+      ],
+      "status": "verified",
+      "one_liner": "用免版权实拍素材剪出电影感，第二人称把观众拉进问题里，5-8分钟不冷场。",
+      "best_for": [
+        "5-8分钟长解说",
+        "亚文化/社会议题",
+        "人物/文化史",
+        "标题即出片"
+      ],
+      "spec": {
+        "aspect": "16:9",
+        "resolution": "1920x1080",
+        "fps": 30,
+        "duration": "5-8min",
+        "audio": "纯画面无音轨",
+        "subtitles": "无(内部骨架)"
+      },
+      "palette": [
+        {
+          "hex": "#2B1D12",
+          "name": "暖棕暗部"
+        },
+        {
+          "hex": "#C8552B",
+          "name": "暖橙高光"
+        },
+        {
+          "hex": "#D9B8A0",
+          "name": "肤色/纸色"
+        }
+      ],
+      "fonts": [
+        "Microsoft YaHei 64px 白字（内部字幕）"
+      ],
+      "evidence": [
+        {
+          "title": "为什么我说亚文化必然兴起",
+          "file": "E:/复刻kele说视频/05_成片/为什么我说亚文化必然兴起_纯画面1080p.mp4",
+          "duration": 471.7,
+          "resolution": "1920x1080",
+          "fps": 30,
+          "shots": 96
+        },
+        {
+          "title": "外貌歧视，困住多少亚文化爱好者",
+          "file": "E:/复刻kele说视频/05_成片/外貌歧视，困住多少亚文化爱好者_纯画面1080p.mp4",
+          "duration": 466.33,
+          "resolution": "1920x1080",
+          "fps": 30
+        },
+        {
+          "title": "哥特不怕网红化",
+          "file": "E:/复刻kele说视频/05_成片/哥特不怕网红化，它怕的是没人再需要它_纯画面1080p.mp4",
+          "duration": 470.53,
+          "resolution": "1920x1080",
+          "fps": 30
+        },
+        {
+          "title": "INTP理性的囚徒",
+          "file": "E:/复刻kele说视频/05_成片/INTP理性的囚徒_纯画面1080p.mp4",
+          "duration": 359.8,
+          "resolution": "1920x1080",
+          "fps": 30
+        }
+      ],
+      "preview": "预览/S06.jpg",
+      "card": "卡片/S06-暖棕电影感.md",
+      "prompt_anchor": "暖棕橙电影感实拍素材，高对比，中低饱和，暗角，轻胶片颗粒，35mm镜头，浅景深，画面有真实生活质感，无文字无水印。",
+      "assets": [
+        "E:/复刻kele说视频/tools/",
+        "E:/复刻kele说视频/references/stock/clips/",
+        "E:/AI沉淀/03-技能/explainer-video-pipeline/SKILL.md"
+      ],
+      "qc": [
+        "1920x1080/30fps/5-8min",
+        "流列表只有video",
+        "96镜平均4.4-4.9s",
+        "228.8字/分",
+        "亮度48.3/饱和43.8%/暖偏+22.5",
+        "字幕底沿87.8%",
+        "坏片0/黑帧0",
+        "时间码三格式"
+      ],
+      "pitfalls": [
+        "verify_clips必跑",
+        "scan_black必跑",
+        "Pexels每个query新开标签页",
+        "Cloudflare封curl换urllib",
+        "并发降到2",
+        "ASR用本地模型目录",
+        "loudnorm两遍",
+        "x264裁末帧加tpad"
+      ]
+    },
+    {
+      "id": "S07",
+      "name": "巨字卡点 · 角色展示",
+      "aliases": [
+        "MBTI人格拟人",
+        "巨字卡点",
+        "typographic character meme",
+        "紫人组黄人组"
+      ],
+      "status": "verified",
+      "one_liner": "巨幅英文压在角色脸上，亮底是理想，暗底是现实，一切跟着鼓点切。",
+      "best_for": [
+        "MBTI人格拟人",
+        "角色群像",
+        "meme/卡点",
+        "60s横屏"
+      ],
+      "spec": {
+        "aspect": "16:9",
+        "resolution": "1920x1080",
+        "fps": 30,
+        "duration": "60s",
+        "audio": "BGM",
+        "subtitles": "无"
+      },
+      "palette": [
+        {
+          "hex": "#f6f0e2",
+          "name": "亮底"
+        },
+        {
+          "hex": "#0b0805",
+          "name": "暗底"
+        },
+        {
+          "hex": "#f2b21c",
+          "name": "琥珀金"
+        },
+        {
+          "hex": "#1a1208",
+          "name": "亮底大字"
+        },
+        {
+          "hex": "#f4efe4",
+          "name": "标题纸白"
+        }
+      ],
+      "fonts": [
+        "Arial Black",
+        "Arial Bold",
+        "Impact",
+        "Noto Sans SC"
+      ],
+      "evidence": [
+        {
+          "title": "黄人组 SP",
+          "file": "C:/Users/34137/projects/mbti-nt-clone/productions/sp-group-showcase/drafts/sp-showcase-v5.mp4",
+          "duration": 60.0,
+          "resolution": "1920x1080",
+          "fps": 30,
+          "segments": 13
+        }
+      ],
+      "preview": "预览/S07.jpg",
+      "card": "卡片/S07-巨字卡点.md",
+      "prompt_anchor": "二次元角色插画，扁平色块，干净线稿，亮底/暗底两版，角色半身，巨幅英文类型码占满背景，无文字（大字由组件叠加），无 watermark。",
+      "assets": [
+        "C:/Users/34137/projects/mbti-nt-clone/packages/sp-showcase/src/index.ts",
+        "C:/Users/34137/projects/mbti-nt-clone/assets/characters/",
+        "C:/Users/34137/projects/mbti-nt-clone/authors/sp-showcase.svml"
+      ],
+      "qc": [
+        "1920x1080/30fps/60s",
+        "13段切点落在节拍",
+        "8张角色图4x2",
+        "亮底multiply/暗底screen",
+        "亮暗交替>=2轮",
+        "结尾水印不挡字"
+      ],
+      "pitfalls": [
+        "改package后必须npm install",
+        "切点按实际BGM重排",
+        "角色图不要内置文字",
+        "组色统一",
+        "无语音"
+      ]
+    },
+    {
+      "id": "S08",
+      "name": "纯黑设备 · App 发布动画",
+      "aliases": [
+        "设备Mockup发布片",
+        "App开场",
+        "手机UI巡游",
+        "发布会动画"
+      ],
+      "status": "verified",
+      "one_liner": "纯黑里慢慢浮出一台手机，屏幕亮起，9屏功能跟着旁白走一遍。",
+      "best_for": [
+        "App/小程序发布",
+        "功能介绍",
+        "众筹页头图",
+        "45s横屏"
+      ],
+      "spec": {
+        "aspect": "16:9",
+        "resolution": "1920x1080",
+        "fps": 30,
+        "duration": "45s",
+        "audio": "无",
+        "subtitles": "无"
+      },
+      "palette": [
+        {
+          "hex": "#000000",
+          "name": "纯黑"
+        },
+        {
+          "hex": "#41414a",
+          "name": "钛黑中框"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "外缘亮线"
+        }
+      ],
+      "fonts": [
+        "PingFang SC",
+        "Microsoft YaHei"
+      ],
+      "evidence": [
+        {
+          "title": "第二文化 45s 开场",
+          "file": "E:/AI视频工程/第二文化-开场45s/05-成片/第二文化-开场45s-1920x1080.mp4",
+          "duration": 45.0,
+          "resolution": "1920x1080",
+          "fps": 30,
+          "screens": 9
+        }
+      ],
+      "preview": "预览/S08.jpg",
+      "card": "卡片/S08-纯黑设备发布.md",
+      "prompt_anchor": "无（组件/逐帧合成，非生成式）",
+      "assets": [
+        "E:/AI视频工程/第二文化-开场45s/scene.html",
+        "E:/AI视频工程/第二文化-开场45s/render_frames.py",
+        "E:/AI视频工程/第二文化-开场45s/02-素材/screens/",
+        "E:/AI视频工程/第二文化-开场45s/01-脚本/开场动效-完整步骤.md"
+      ],
+      "qc": [
+        "1920x1080/30fps/45s/1350帧",
+        "纯黑无灰边",
+        "9屏顺序正确",
+        "机身淡入早屏幕1.3s",
+        "光扫一次不过曝",
+        "44.0-44.9s淡出纯黑"
+      ],
+      "pitfalls": [
+        "用750x1624@2x定稿原图",
+        "逐帧渲染帧号=N/30s",
+        "object-fit cover+Ken Burns",
+        "9屏顺序别乱",
+        "收尾回纯黑"
+      ]
+    },
+    {
+      "id": "S09",
+      "name": "暗室档案馆 · 心理/哲学",
+      "aliases": [
+        "Dark Archive",
+        "心理哲学口播",
+        "荣格八维视觉系统"
+      ],
+      "status": "spec",
+      "one_liner": "近黑底上只放一句话、一个概念、一种信号色；让观众先被打动，再被说服。",
+      "best_for": [
+        "心理学解析",
+        "哲学追问",
+        "MBTI/荣格八维",
+        "电影人物心理分析"
+      ],
+      "spec": {
+        "aspect": "9:16/16:9",
+        "resolution": "1080x1920/1920x1080",
+        "fps": 30,
+        "duration": "45-150s",
+        "audio": "有",
+        "subtitles": "烧入"
+      },
+      "palette": [
+        {
+          "hex": "#0B0D10",
+          "name": "近黑底"
+        },
+        {
+          "hex": "#E8E4DC",
+          "name": "纸白"
+        },
+        {
+          "hex": "#E4572E",
+          "name": "朱砂A"
+        },
+        {
+          "hex": "#4FB3BF",
+          "name": "青B"
+        },
+        {
+          "hex": "#C9A227",
+          "name": "金C"
+        }
+      ],
+      "fonts": [
+        "Noto Serif SC / EB Garamond 72-96px",
+        "Noto Sans SC / Inter 44-52px",
+        "IBM Plex Mono 32-40px"
+      ],
+      "evidence": [],
+      "preview": "预览/S09.jpg",
+      "card": "卡片/S09-暗室档案馆.md",
+      "prompt_anchor": "cinematic still, near-black background #0B0D10, warm paper white #E8E4DC, single accent color vermilion #E4572E, desaturated 30%, fine film grain 10%, soft vignette, 35mm lens, shallow depth of field, muted teal shadows, quiet archival mood, no text, no watermark",
+      "assets": [
+        "C:/Users/34137/.openchatcut/skills/psy-philosophy-mbti/references/visual-language.md",
+        "C:/Users/34137/.openchatcut/skills/psy-philosophy-mbti/references/mbti-visual-system.md",
+        "C:/Users/34137/.openchatcut/skills/psy-philosophy-mbti/references/caption-and-audio.md",
+        "C:/Users/34137/.openchatcut/skills/psy-philosophy-mbti/references/script-structures.md",
+        "C:/Users/34137/.openchatcut/skills/psy-philosophy-mbti/references/qc-checklist.md"
+      ],
+      "qc": [
+        "一屏一个信号色",
+        "字幕距底300px/120px",
+        "电影单段<=6s/单部<=20s",
+        "连续动效<=6s",
+        "每30秒回到一次人脸",
+        "-14 LUFS/真峰值<=-1.5dBTP"
+      ],
+      "pitfalls": [
+        "E:/人格测评/视频风格系统不存在",
+        "不要把MBTI做成诊断",
+        "电影片段是引用",
+        "纯色背景不合格",
+        "一屏一个信号色"
+      ]
+    },
+    {
+      "id": "S10",
+      "name": "胶片化 · 可叠加滤镜",
+      "aliases": [
+        "vintage film look",
+        "胶片化",
+        "自传微电影调色",
+        "2.39:1遮幅"
+      ],
+      "status": "verified",
+      "one_liner": "一条FFmpeg链，把任何AI/实拍素材变成退色、暖高光、泛光、颗粒、暗角的胶片质感。",
+      "best_for": [
+        "AI视频去数码感",
+        "自传微电影",
+        "年代戏/回忆",
+        "统一多素材影调"
+      ],
+      "spec": {
+        "aspect": "任意/2.39:1",
+        "resolution": "跟随源",
+        "fps": "跟随源",
+        "duration": "跟随源",
+        "audio": "保留",
+        "subtitles": "不处理"
+      },
+      "palette": [
+        {
+          "hex": "#2B2118",
+          "name": "退色暗部"
+        },
+        {
+          "hex": "#E8C9A0",
+          "name": "暖高光"
+        },
+        {
+          "hex": "#7A8F8F",
+          "name": "冷阴影"
+        }
+      ],
+      "fonts": [],
+      "evidence": [
+        {
+          "title": "自传微电影前后对照",
+          "file": "E:/AI视频工程/自传微电影/07_复盘/对照/前后对照.mp4",
+          "duration": 5.06,
+          "resolution": "1280x1440",
+          "fps": 24
+        }
+      ],
+      "preview": "预览/S10.jpg",
+      "card": "卡片/S10-胶片化滤镜.md",
+      "prompt_anchor": "curves=all='0/0.045 0.25/0.235 0.5/0.50 0.75/0.78 1/0.955',colorbalance=rs=-0.022:bs=0.035:rm=0.012:bm=-0.012:rh=0.048:gh=0.012:bh=-0.05,eq=contrast=1.06:saturation=0.87:brightness=-0.004,vignette=PI/4,noise=alls=7:allf=t+u",
+      "assets": [
+        "E:/AI视频工程/自传微电影/scripts/film_look.sh",
+        "E:/AI视频工程/自传微电影/scripts/cmp_filter.txt"
+      ],
+      "qc": [
+        "黑位抬起不发灰",
+        "高光不爆",
+        "肤色不脏",
+        "颗粒均匀",
+        "遮幅上下黑边对称"
+      ],
+      "pitfalls": [
+        "colorchannelmixer位置参数必须16个值",
+        "不要用brightness抬黑",
+        "泛光层先压暗部",
+        "颗粒加在最后",
+        "遮幅会切边"
+      ]
+    },
+    {
+      "id": "S11",
+      "name": "AI 漫剧 · 照片级 3D",
+      "aliases": [
+        "AI漫剧",
+        "照片级3D短片",
+        "复古未来主义",
+        "atompunk",
+        "无对白叙事"
+      ],
+      "status": "tested",
+      "one_liner": "21:9复古未来主义，无对白、无旁白，只靠动作、音乐和一只机器人的像素脸讲故事。",
+      "best_for": [
+        "3-4分钟短片",
+        "漫剧/世界观展示",
+        "IP先导片",
+        "无口播叙事"
+      ],
+      "spec": {
+        "aspect": "21:9",
+        "resolution": "3840x1646/2560x1080",
+        "fps": 24,
+        "duration": "3.5min",
+        "audio": "音乐+环境",
+        "subtitles": "仅片名/片尾"
+      },
+      "palette": [
+        {
+          "hex": "#F2E3C6",
+          "name": "奶白"
+        },
+        {
+          "hex": "#C8552B",
+          "name": "橙红"
+        },
+        {
+          "hex": "#B8B8B8",
+          "name": "铬银"
+        },
+        {
+          "hex": "#2E6FA3",
+          "name": "天空蓝"
+        },
+        {
+          "hex": "#2E8B8B",
+          "name": "海水青"
+        }
+      ],
+      "fonts": [
+        "暗红色窄体复古电影字"
+      ],
+      "evidence": [
+        {
+          "title": "丧尸清道夫 测试镜1",
+          "file": "E:/漫剧AI/shot01.mp4",
+          "duration": 4.04,
+          "resolution": "1280x720",
+          "fps": 24
+        },
+        {
+          "title": "丧尸清道夫 测试镜2",
+          "file": "E:/漫剧AI/shot12.mp4",
+          "duration": 12.04,
+          "resolution": "1280x720",
+          "fps": 24
+        },
+        {
+          "title": "丧尸清道夫 完整剧本",
+          "file": "E:/漫剧AI/丧尸清道夫_AI漫剧一键复刻剧本.md",
+          "duration": 214,
+          "resolution": "21:9",
+          "fps": 24,
+          "shots": 56
+        }
+      ],
+      "preview": "预览/S11.jpg",
+      "card": "卡片/S11-AI漫剧.md",
+      "prompt_anchor": "照片级写实3D动画/虚幻引擎电影质感，21:9超宽银幕，24fps，自然运动模糊。1969年架空美国西海岸，复古未来主义/原子朋克：奶白、橙红、铬银为主，天空湛蓝、海水青蓝，高光温暖、阴影偏青，35mm高饱和胶片色彩，轻微自然颗粒。清晰前景/中景/背景，每个镜头只有一个主动作。禁止：卡通、二维插画、动漫脸、赛博朋克紫蓝霓虹、现代汽车/手机/服饰、随机文字、Logo、水印、平台UI、角色漂移、服装变化、多余手指、血浆、内脏。",
+      "assets": [
+        "E:/漫剧AI/丧尸清道夫_AI漫剧一键复刻剧本.md",
+        "E:/漫剧AI/清道夫角色参考.jpeg",
+        "E:/漫剧AI/shot01.mp4",
+        "E:/漫剧AI/shot12.mp4",
+        "E:/漫剧AI/shot12b.mp4"
+      ],
+      "qc": [
+        "21:9全片一致",
+        "24fps/214s+/-2s",
+        "56镜全覆盖",
+        "R1/R2/R3身份一致",
+        "无对白/无旁白",
+        "除片名片尾无文字",
+        "关键节拍准确",
+        "照片回环"
+      ],
+      "pitfalls": [
+        "单次生成214s必漂",
+        "角色一致性优先于动作",
+        "不要赛博朋克",
+        "R1不能长人脸",
+        "R2不是活人",
+        "同镜头丧尸脸不能复制"
+      ]
+    },
+    {
+      "id": "S12",
+      "name": "扁平动态图形 · Flat Motion Graphics",
+      "aliases": [
+        "扁平动效",
+        "flat motion graphics",
+        "社媒科普动画",
+        "startup explainer"
+      ],
+      "status": "reference",
+      "one_liner": "深色底上只用色块、几何和粗字，每 2–3 秒换一个视觉元素，把「讲不清」讲成「一眼懂」。",
+      "best_for": [
+        "30–120秒社媒科普",
+        "产品发布/路演",
+        "SaaS 功能说明",
+        "数据讲解"
+      ],
+      "spec": {
+        "aspect": "16:9 / 9:16",
+        "resolution": "1920x1080",
+        "fps": 30,
+        "duration": "30-120s",
+        "audio": "有",
+        "subtitles": "烧入"
+      },
+      "palette": [
+        {
+          "hex": "#0F172A",
+          "name": "深板岩底"
+        },
+        {
+          "hex": "#7C3AED",
+          "name": "紫"
+        },
+        {
+          "hex": "#4F46E5",
+          "name": "靛"
+        },
+        {
+          "hex": "#EC4899",
+          "name": "品红"
+        },
+        {
+          "hex": "#06B6D4",
+          "name": "青"
+        },
+        {
+          "hex": "#F8FAFC",
+          "name": "近白"
+        }
+      ],
+      "fonts": [
+        "Space Grotesk 700 / -0.03em",
+        "数字卡 800",
+        "Noto Sans SC Bold 中文"
+      ],
+      "evidence": [
+        {
+          "title": "OpenMontage flat-motion-graphics 规范",
+          "file": "E:/AI视频工程/_GitHub参考/OpenMontage/styles/flat-motion-graphics.yaml",
+          "note": "外部 mature 规范，本机未实测"
+        }
+      ],
+      "preview": "预览/S12.jpg",
+      "card": "卡片/S12-扁平动态图形.md",
+      "prompt_anchor": "flat vector illustration, bold colors, dark slate background #0F172A, geometric shapes, purple #7C3AED primary accent, magenta #EC4899 and cyan #06B6D4 pops, no gradients except background, edge-to-edge bold framing, high contrast, clean vector edges, no photorealism, no 3D",
+      "assets": [
+        "E:/AI视频工程/_GitHub参考/OpenMontage/styles/flat-motion-graphics.yaml"
+      ],
+      "qc": [
+        "一屏≤4色",
+        "文字对比≥4.5:1",
+        "每2–3秒一个新视觉元素",
+        "单镜1.5–8秒",
+        "转场0.3秒且有音效",
+        "BGM≤0.12",
+        "720p可读"
+      ],
+      "pitfalls": [
+        "加渐变破功",
+        "颜色超4种变信息图",
+        "节奏放慢就散",
+        "中文不能套 Space Grotesk"
+      ]
+    },
+    {
+      "id": "S13",
+      "name": "吉卜力手绘动画 · Anime Ghibli",
+      "aliases": [
+        "吉卜力风",
+        "Ghibli style",
+        "手绘水彩动画",
+        "治愈系动画"
+      ],
+      "status": "reference",
+      "one_liner": "水彩边缘 + 明显的前中后景 + 暖金与森林绿；用同一场景 2–3 张微变图交叉淡化假装运动。",
+      "best_for": [
+        "情感叙事",
+        "成长/自然题材",
+        "品牌温度片",
+        "寓言/儿童内容"
+      ],
+      "spec": {
+        "aspect": "16:9",
+        "resolution": "1920x1080",
+        "fps": 24,
+        "duration": "60-180s",
+        "audio": "有",
+        "subtitles": "后期叠"
+      },
+      "palette": [
+        {
+          "hex": "#0A0A1A",
+          "name": "深夜底"
+        },
+        {
+          "hex": "#2D5016",
+          "name": "森林绿"
+        },
+        {
+          "hex": "#1B4332",
+          "name": "深林绿"
+        },
+        {
+          "hex": "#FFB347",
+          "name": "暖金"
+        },
+        {
+          "hex": "#FF6B9D",
+          "name": "樱粉"
+        },
+        {
+          "hex": "#A8E6CF",
+          "name": "灵光青"
+        },
+        {
+          "hex": "#FFF3B0",
+          "name": "暖金白"
+        },
+        {
+          "hex": "#F5F0E8",
+          "name": "纸白"
+        }
+      ],
+      "fonts": [
+        "Noto Serif JP 500 标题",
+        "Noto Sans 300 正文 行高1.7"
+      ],
+      "evidence": [
+        {
+          "title": "OpenMontage anime-ghibli 规范",
+          "file": "E:/AI视频工程/_GitHub参考/OpenMontage/styles/anime-ghibli.yaml",
+          "note": "外部成熟规范，本机未实测"
+        }
+      ],
+      "preview": "预览/S13.jpg",
+      "card": "卡片/S13-吉卜力手绘动画.md",
+      "prompt_anchor": "Studio Ghibli anime style, hand-painted watercolor aesthetic, soft diffused lighting, lush natural environment, warm palette #2D5016 #FFB347, painterly brushstrokes visible, layered depth foreground/midground/background, gentle vignette, no photorealistic, no 3D render, no CGI, no harsh shadows, no neon",
+      "assets": [
+        "E:/AI视频工程/_GitHub参考/OpenMontage/styles/anime-ghibli.yaml"
+      ],
+      "qc": [
+        "单场4–6秒无快切",
+        "每场2–3张微变图",
+        "交叉淡化1–1.5秒",
+        "前中后景可指认",
+        "每图有暗角",
+        "生成图内无文字",
+        "同seed族色板一致"
+      ],
+      "pitfalls": [
+        "加3D就死",
+        "快切毁气氛",
+        "中文让模型画必错",
+        "不要复刻具体作品角色",
+        "单张图没有呼吸感"
+      ]
+    },
+    {
+      "id": "S14",
+      "name": "高端极简 · Premium Minimalist",
+      "aliases": [
+        "高端极简",
+        "premium minimal",
+        "投资人更新风",
+        "editorial minimal"
+      ],
+      "status": "reference",
+      "one_liner": "米白纸面、炭黑字、一点钴蓝；留白不是空，是在说「我很确定」。",
+      "best_for": [
+        "投资人更新",
+        "专家解说",
+        "产品叙事",
+        "高信任发布"
+      ],
+      "spec": {
+        "aspect": "16:9",
+        "resolution": "1920x1080",
+        "fps": 30,
+        "duration": "45-180s",
+        "audio": "有",
+        "subtitles": "烧入"
+      },
+      "palette": [
+        {
+          "hex": "#F9FAFB",
+          "name": "米白底"
+        },
+        {
+          "hex": "#111827",
+          "name": "炭黑"
+        },
+        {
+          "hex": "#374151",
+          "name": "次级"
+        },
+        {
+          "hex": "#6B7280",
+          "name": "弱化"
+        },
+        {
+          "hex": "#2563EB",
+          "name": "钴蓝"
+        },
+        {
+          "hex": "#0F766E",
+          "name": "深青"
+        }
+      ],
+      "fonts": [
+        "Inter 700 / -0.01em",
+        "正文 400 / 1.55",
+        "数字卡 800",
+        "Noto Sans SC 中文"
+      ],
+      "evidence": [
+        {
+          "title": "OpenMontage premium-minimalist 规范",
+          "file": "E:/AI视频工程/_GitHub参考/OpenMontage/styles/premium-minimalist.yaml",
+          "note": "外部成熟规范，本机未实测"
+        }
+      ],
+      "preview": "预览/S14.jpg",
+      "card": "卡片/S14-高端极简.md",
+      "prompt_anchor": "premium editorial minimalism, off-white field #F9FAFB, charcoal text #111827, single cobalt accent #2563EB, matte flat surfaces, fine hairline dividers, asymmetrical grid, wide margins, one focal object per frame, no decorative gradients, no corporate template cards, no clutter",
+      "assets": [
+        "E:/AI视频工程/_GitHub参考/OpenMontage/styles/premium-minimalist.yaml"
+      ],
+      "qc": [
+        "一帧一个焦点物",
+        "三种版面轮换",
+        "强调色只有钴蓝",
+        "无装饰渐变",
+        "单镜2.75–12秒",
+        "转场0.45秒无弹跳",
+        "BGM≤0.07 / -16 LUFS"
+      ],
+      "pitfalls": [
+        "加渐变变廉价",
+        "版式不换会困",
+        "快切降理解",
+        "中文必须配 Noto Sans SC"
+      ]
+    },
+    {
+      "id": "S15",
+      "name": "极简图解 · Minimalist Diagram",
+      "aliases": [
+        "极简图解",
+        "技术图解",
+        "whiteboard diagram",
+        "架构讲解"
+      ],
+      "status": "reference",
+      "one_liner": "浅灰纸面、细黑线、方形节点，全片只有一个红色强调色——像教授在白板上把一件事拆开。",
+      "best_for": [
+        "技术深挖",
+        "架构讲解",
+        "数学/CS 概念",
+        "文档视频"
+      ],
+      "spec": {
+        "aspect": "16:9",
+        "resolution": "1920x1080",
+        "fps": 30,
+        "duration": "60-300s",
+        "audio": "有",
+        "subtitles": "烧入"
+      },
+      "palette": [
+        {
+          "hex": "#FAFAFA",
+          "name": "浅灰纸"
+        },
+        {
+          "hex": "#1A1A2E",
+          "name": "主线条"
+        },
+        {
+          "hex": "#16213E",
+          "name": "次级"
+        },
+        {
+          "hex": "#E94560",
+          "name": "唯一强调红"
+        },
+        {
+          "hex": "#0F3460",
+          "name": "结构深蓝"
+        },
+        {
+          "hex": "#6B7280",
+          "name": "弱化"
+        }
+      ],
+      "fonts": [
+        "IBM Plex Sans 600/400 行高1.7",
+        "IBM Plex Mono 代码"
+      ],
+      "evidence": [
+        {
+          "title": "OpenMontage minimalist-diagram 规范",
+          "file": "E:/AI视频工程/_GitHub参考/OpenMontage/styles/minimalist-diagram.yaml",
+          "note": "外部成熟规范，本机未实测"
+        }
+      ],
+      "preview": "预览/S15.jpg",
+      "card": "卡片/S15-极简图解.md",
+      "prompt_anchor": "minimalist technical diagram, clean thin dark lines on light gray #FAFAFA, square nodes, monochrome with a single red #E94560 accent, blueprint-like precision, consistent line weight, grid-aligned, generous margins, no color, no 3D, no photorealism",
+      "assets": [
+        "E:/AI视频工程/_GitHub参考/OpenMontage/styles/minimalist-diagram.yaml"
+      ],
+      "qc": [
+        "全片一个红色强调",
+        "线宽全片一致",
+        "节点对齐网格",
+        "单镜3–15秒",
+        "每个节点有标签且无错字",
+        "连线生长不闪现",
+        "BGM≤0.05"
+      ],
+      "pitfalls": [
+        "生成模型画图解必错",
+        "红色用两处强调失效",
+        "线宽不统一一眼假",
+        "一屏超7节点要拆"
+      ]
+    },
+    {
+      "id": "S16",
+      "name": "四色人格图鉴 · MBTI 职场图鉴",
+      "aliases": [
+        "16型人格目录",
+        "四色人格",
+        "low-poly personality atlas",
+        "MBTI职场图鉴"
+      ],
+      "status": "verified",
+      "one_liner": "黑底单人 7 秒、道具横排 4 秒、环境横条 3.3 秒；14.3 秒一个人格，99 BPM 不停嘴。",
+      "best_for": [
+        "16型人格/职业图鉴",
+        "角色群像目录",
+        "60s–4min横屏解说"
+      ],
+      "spec": {
+        "aspect": "16:9",
+        "resolution": "1280x720（可升1920x1080）",
+        "fps": "30",
+        "duration": "60s-4min",
+        "audio": "有",
+        "subtitles": "烧入"
+      },
+      "palette": [
+        {
+          "hex": "#000000",
+          "name": "hero黑底"
+        },
+        {
+          "hex": "#E8DB18",
+          "name": "强调黄"
+        },
+        {
+          "hex": "#4E8A96",
+          "name": "SJ青"
+        },
+        {
+          "hex": "#6C5071",
+          "name": "NT紫"
+        },
+        {
+          "hex": "#437853",
+          "name": "NF绿"
+        },
+        {
+          "hex": "#81693A",
+          "name": "SP黄"
+        },
+        {
+          "hex": "#D5D8D9",
+          "name": "jobs浅灰"
+        }
+      ],
+      "fonts": [
+        "Microsoft YaHei Bold 38px 标题",
+        "Microsoft YaHei Bold 44px 金句/职位"
+      ],
+      "evidence": [
+        {
+          "title": "16 型全片（239s，24 张生图跑完）",
+          "file": "E:/AI视频工程/MBTI/references/mbti-career-atlas-2026-11-04/full/MBTI-16型职场图鉴-复刻版.mp4",
+          "duration": 239.12,
+          "resolution": "1280x720",
+          "fps": 30,
+          "bytes": 32237734
+        },
+        {
+          "title": "INTJ 语法样片 v2（真生图+旁白+无水印）",
+          "file": "E:/AI视频工程/MBTI/references/mbti-career-atlas-2026-11-04/replica/replica-intj-14s-v2.mp4",
+          "duration": 14.57,
+          "resolution": "1280x720",
+          "fps": 30,
+          "bytes": 2298258
+        },
+        {
+          "title": "并排对照 v2（参考侧水印已抹）",
+          "file": "E:/AI视频工程/MBTI/references/mbti-career-atlas-2026-11-04/replica/side-by-side-intj-v2.mp4",
+          "duration": 14.67,
+          "resolution": "1920x540",
+          "fps": 30,
+          "bytes": 2063644
+        },
+        {
+          "title": "三镜静帧对照",
+          "file": "E:/AI视频工程/MBTI/references/mbti-career-atlas-2026-11-04/replica/side_check_v2.jpg",
+          "resolution": "1304x1244"
+        }
+      ],
+      "preview": "预览/S16.jpg",
+      "card": "卡片/S16-四色人格图鉴.md",
+      "prompt_anchor": "低多边形切面卡通（low-poly vector，2.5D纸片感），16:9横屏。黑底单人角色居中，头大身小、块面硬、五官极简；左上角黄色编号+类型+别名，底部黄色粗体描边字。四组人格色只染角色服装与环境：SJ青#4E8A96、NT紫#6C5071、NF绿#437853、SP黄#81693A；恒定强调黄#E8DB18。三镜循环：黑底慢拉远身份、深色职业群像金句、静止职位卡。禁止：写实、手绘水彩、3D渲染、渐变光效、叠化转场。",
+      "assets": [
+        "E:/AI视频工程/MBTI/references/mbti-career-atlas-2026-11-04/teardown/STYLE.md",
+        "E:/AI视频工程/MBTI/references/mbti-career-atlas-2026-11-04/teardown/SHOT_TABLE.md",
+        "E:/AI视频工程/MBTI/references/mbti-career-atlas-2026-11-04/teardown/FORMULA.md"
+      ],
+      "qc": [
+        "每块三镜7/4/3.3秒±10%",
+        "hero文字≤12字，金句≤22字，职位3-4个",
+        "标题/金句/职位全部黄色+黑描边",
+        "hero亮度0.06/quote0.24/jobs0.47",
+        "硬切无叠化",
+        "旁白5.5-6.2字/秒",
+        "最后一块说完即停"
+      ],
+      "pitfalls": [
+        "Whisper会把ISFJ/ISTJ/INTJ听成East，必须用屏上字校正",
+        "jobs背景不是统一浅色，ISFJ浅灰/INTJ仍是紫色",
+        "同组四型不能只换衣服颜色，必须换发型/道具/轮廓",
+        "每块职业数必须固定3-4个",
+        "加叠化会变成PPT感",
+        "加CTA会破坏图鉴的干脆"
+      ],
+      "updated": "2026-11-04",
+      "image_gen": {
+        "model": "doubao-seedream-5-0-260128",
+        "size": "2560x1440",
+        "watermark": false,
+        "gateway": "E:/AI沉淀/03-技能/media/coze-media-gateway/scripts/coze_gw.py"
+      },
+      "cost": {
+        "images_generated": 24,
+        "naive_where": 64,
+        "cache_rerun_secs": 1.3,
+        "doc": "E:/AI视频工程/MBTI/references/mbti-career-atlas-2026-11-04/full/COST.md"
+      }
+    }
+  ]
+}

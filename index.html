@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="16 套视频视觉风格 + 10 套叙事骨架 + 10 条复刻工作流：可搜索的预览墙，每套含色值、字体、镜头、声音与验收数字。">
+<meta property="og:title" content="视频风格资产库 · 16 套">
+<meta property="og:description" content="把做过一次的片子，拆成下次直接能用的风格。">
+<meta property="og:image" content="https://8-321.github.io/video-style-atlas/预览/S01.jpg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://8-321.github.io/video-style-atlas/">
+<meta name="twitter:card" content="summary_large_image">
+<title>视频风格资产库 · 16 套</title>
+<style>
+:root{--bg:#0c0d10;--panel:#141519;--line:#2a2b31;--text:#f0eee8;--muted:#93939c;--accent:#e8a33d}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Microsoft YaHei","PingFang SC",system-ui,sans-serif}
+header{padding:44px 48px 24px;border-bottom:1px solid var(--line)}
+h1{margin:0 0 8px;font-size:34px;letter-spacing:.02em}
+.sub{color:var(--muted);font-size:14px;line-height:1.7}
+.docs{display:flex;gap:10px;flex-wrap:wrap;padding:18px 48px;border-bottom:1px solid var(--line);background:#101116}
+.docs a{color:#c9c7c0;text-decoration:none;font-size:13px;border:1px solid var(--line);background:var(--panel);padding:9px 14px;border-radius:8px}
+.docs a:hover{border-color:var(--accent);color:var(--accent)}
+.docs b{color:var(--accent);font-weight:700}
+.toolbar{padding:20px 48px;display:flex;gap:12px;align-items:center;flex-wrap:wrap;border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(12,13,16,.94);backdrop-filter:blur(8px);z-index:9}
+input{width:min(520px,100%);background:var(--panel);border:1px solid var(--line);color:var(--text);padding:12px 14px;border-radius:8px;font-size:15px;outline:none}
+input:focus{border-color:var(--accent)}
+.count{color:var(--muted);font-size:13px}
+.grid{padding:28px 48px 60px;display:grid;grid-template-columns:repeat(auto-fill,minmax(420px,1fr));gap:22px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;transition:.18s}
+.card:hover{transform:translateY(-2px);border-color:#45464e}
+.thumb{display:block;aspect-ratio:1560/736;background:#000;overflow:hidden}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.body{padding:18px 20px 20px;display:flex;flex-direction:column;gap:10px;flex:1}
+.top{display:flex;justify-content:space-between;align-items:center}
+.sid{font-weight:900;font-size:22px;color:var(--accent);letter-spacing:.05em}
+.status{font-size:12px;padding:3px 9px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
+.status.verified{color:#9fd3a8;border-color:#2e5a37}
+.status.tested{color:#e8c27a;border-color:#5a4a2e}
+.status.spec{color:#9fb8d3;border-color:#2e405a}
+.status.reference{color:#c4b5fd;border-color:#4c3f7a}
+h2{margin:0;font-size:20px;line-height:1.35}
+.one{margin:0;color:#c9c7c0;font-size:14px;line-height:1.6}
+.meta{font-size:12px;color:var(--muted);font-family:Consolas,monospace}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-size:11px;color:#c9c7c0;display:flex;align-items:center;gap:5px;background:#0e0f12;border:1px solid var(--line);padding:4px 7px;border-radius:5px}
+.chip i{width:11px;height:11px;border-radius:2px;display:inline-block}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-size:11px;color:var(--muted);border:1px dashed #34353c;padding:3px 7px;border-radius:999px}
+.links{margin-top:auto;display:flex;gap:16px;padding-top:6px}
+.links a{color:var(--accent);text-decoration:none;font-size:13px}
+.links a:hover{text-decoration:underline}
+footer{padding:24px 48px 50px;color:var(--muted);font-size:12px;border-top:1px solid var(--line)}
+@media(max-width:720px){header,.toolbar,.grid,footer,.docs{padding-left:20px;padding-right:20px}.grid{grid-template-columns:1fr}}
+</style></head>
+<body>
+<header>
+  <h1>视频风格资产库</h1>
+  <div class="sub">16 套视觉风格 · 10 套叙事骨架 · 9 条复刻工作流 · 每套都有预览、色值、提示词、验收数字<br>
+  唯一真源：E:\视频工厂\10-风格库 ｜ 机器可读：styles.json ｜ 清单：MANIFEST.json</div>
+</header>
+<div class="docs">
+  <a href="复刻工作流.md"><b>复刻工作流</b> · 拿到一条片子怎么拆、怎么排工序</a>
+  <a href="叙事骨架.md"><b>叙事骨架</b> · N01–N10 结构</a>
+  <a href="通用规格.md"><b>通用规格</b> · 画幅/字幕/响度/质检</a>
+  <a href="index.html"><b>风格墙</b> · 当前页</a>
+</div>
+<div class="toolbar">
+  <input id="q" placeholder="搜索：VOX / 档案桌 / 心理 / 人物 / 黑金 / 设备 / 漫剧 / 吉卜力 / 图解…" autocomplete="off">
+  <span class="count" id="count">16 套</span>
+</div>
+<main class="grid" id="grid">
+    <article class="card" data-id="S01" data-text="s01 纸张拼贴 · vox 编辑插画 把观点做成一张手工拼贴的杂志跨页，让纸片自己动起来。 vox纸质拼贴 paper-collage editorial 剪纸讲解 2分钟内知识科普 抽象概念可视化 冷知识/观点解释">
+      <a class="thumb" href="预览/S01.jpg" target="_blank"><img loading="lazy" src="预览/S01.jpg" alt="纸张拼贴 · VOX 编辑插画"></a>
+      <div class="body">
+        <div class="top"><span class="sid">S01</span><span class="status verified">已验证</span></div>
+        <h2>纸张拼贴 · VOX 编辑插画</h2>
+        <p class="one">把观点做成一张手工拼贴的杂志跨页，让纸片自己动起来。</p>
+        <div class="meta">16:9 · 1920x1080 · 24/30(跟随素材)fps · 25s-2min</div>
+        <div class="chips"><span class="chip"><i style="background:#F2E8D5"></i>奶油纸底 #F2E8D5</span><span class="chip"><i style="background:#D95D39"></i>陶土橙 #D95D39</span><span class="chip"><i style="background:#1F2D50"></i>深藏蓝 #1F2D50</span><span class="chip"><i style="background:#E8A33D"></i>芥末黄 #E8A33D</span></div>
+        <div class="tags"><span class="tag">2分钟内知识科普</span><span class="tag">抽象概念可视化</span><span class="tag">冷知识/观点解释</span></div>
+        <div class="links"><a href="卡片/S01-纸张拼贴-VOX.md">打开风格卡 (md)</a><a href="预览/S01.jpg" target="_blank">看大图</a></div>
+      </div>
+    </article>
+    <article class="card" data-id="S02" data-text="s02 暖木档案桌 · 纸片木偶 把知识摊在一张胡桃木桌上，用纸片、老照片和手写批注演给观众看。 暗室档案桌 desk film 纸片人档案 小红书档案风 人文观点 mbti/历史人物 思想史/审美话题 3-5分钟竖屏">
+      <a class="thumb" href="预览/S02.jpg" target="_blank"><img loading="lazy" src="预览/S02.jpg" alt="暖木档案桌 · 纸片木偶"></a>
+      <div class="body">
+        <div class="top"><span class="sid">S02</span><span class="status verified">已验证</span></div>
+        <h2>暖木档案桌 · 纸片木偶</h2>
+        <p class="one">把知识摊在一张胡桃木桌上，用纸片、老照片和手写批注演给观众看。</p>
+        <div class="meta">9:16 · 1080x1920 · 30fps · 3-5min</div>
+        <div class="chips"><span class="chip"><i style="background:#150f09"></i>胡桃木桌底 #150f09</span><span class="chip"><i style="background:#fdf8ea"></i>纸签亮部 #fdf8ea</span><span class="chip"><i style="background:#f0e5cd"></i>纸签暗部 #f0e5cd</span><span class="chip"><i style="background:#a33224"></i>批注红 #a33224</span><span class="chip"><i style="background:#2b2118"></i>墨色 #2b2118</span><span class="chip"><i style="background:#ffd79a"></i>字幕强调 #ffd79a</span></div>
+        <div class="tags"><span class="tag">人文观点</span><span class="tag">MBTI/历史人物</span><span class="tag">思想史/审美话题</span><span class="tag">3-5分钟竖屏</span></div>
+        <div class="links"><a href="卡片/S02-暖木档案桌.md">打开风格卡 (md)</a><a href="预览/S02.jpg" target="_blank">看大图</a></div>
+      </div>
+    </article>
+    <article class="card" data-id="S03" data-text="s03 微缩定格 · 树脂人偶 把人性实验放进一个2.5头身的树脂微缩场景里，用一束硬光照出阴影。 微缩定格 miniature stop-motion 树脂人偶 暗色微缩剧场 心理机制 人性实验 社会隐喻 2-3分钟4:3">
+      <a class="thumb" href="预览/S03.jpg" target="_blank"><img loading="lazy" src="预览/S03.jpg" alt="微缩定格 · 树脂人偶"></a>
+      <div class="body">
+        <div class="top"><span class="sid">S03</span><span class="status verified">已验证</span></div>
+        <h2>微缩定格 · 树脂人偶</h2>
+        <p class="one">把人性实验放进一个2.5头身的树脂微缩场景里，用一束硬光照出阴影。</p>
+        <div class="meta">4:3 · 960x720 · 30fps · 2-3min</div>
+        <div class="chips"><span class="chip"><i style="background:#E7B96E"></i>关键词金 #E7B96E</span><span class="chip"><i style="background:#F2E4CF"></i>强调米白 #F2E4CF</span><span class="chip"><i style="background:#8BC9E8"></i>实验蓝 #8BC9E8</span><span class="chip"><i style="background:#D98C62"></i>转折橙红 #D98C62</span><span class="chip"><i style="background:#F5EEE2"></i>字幕米白 #F5EEE2</span></div>
+        <div class="tags"><span class="tag">心理机制</span><span class="tag">人性实验</span><span class="tag">社会隐喻</span><span class="tag">2-3分钟4:3</span></div>
+        <div class="links"><a href="卡片/S03-微缩定格.md">打开风格卡 (md)</a><a href="预览/S03.jpg" target="_blank">看大图</a></div>
+      </div>
+    </article>
+    <article class="card" data-id="S04" data-text="s04 双轨字幕 · 人物史诗 金色题注交代何时何地，白色对白推动谁说了什么，红色只留给转折。 双轨字幕 游梦人物录式 人物豪赌史诗 金白红字幕 人物传记 商业史 失败翻盘 3分钟横屏">
+      <a class="thumb" href="预览/S04.jpg" target="_blank"><img loading="lazy" src="预览/S04.jpg" alt="双轨字幕 · 人物史诗"></a>
+      <div class="body">
+        <div class="top"><span class="sid">S04</span><span class="status verified">已验证</span></div>
+        <h2>双轨字幕 · 人物史诗</h2>
+        <p class="one">金色题注交代何时何地，白色对白推动谁说了什么，红色只留给转折。</p>
+        <div class="meta">16:9 · 1920x1080 · 30fps · 3min</div>
+        <div class="chips"><span class="chip"><i style="background:#F5F090"></i>金色题注 #F5F090</span><span class="chip"><i style="background:#FFFFFF"></i>白色对白 #FFFFFF</span><span class="chip"><i style="background:#D8423C"></i>红色强调 #D8423C</span></div>
+        <div class="tags"><span class="tag">人物传记</span><span class="tag">商业史</span><span class="tag">失败翻盘</span><span class="tag">3分钟横屏</span></div>
+        <div class="links"><a href="卡片/S04-双轨字幕-人物史诗.md">打开风格卡 (md)</a><a href="预览/S04.jpg" target="_blank">看大图</a></div>
+      </div>
+    </article>
+    <article class="card" data-id="S05" data-text="s05 黑金 · 知识解说 黑底上只留金色大字和一张电影暗图，让每一段都像一页摊开的禁书。 黑金知识解说 小五狼式 暗底金字 深度解说 5分钟深度知识 社会观察 文化史/游戏史 横屏长视频">
+      <a class="thumb" href="预览/S05.jpg" target="_blank"><img loading="lazy" src="预览/S05.jpg" alt="黑金 · 知识解说"></a>
+      <div class="body">
+        <div class="top"><span class="sid">S05</span><span class="status verified">已验证</span></div>
+        <h2>黑金 · 知识解说</h2>
+        <p class="one">黑底上只留金色大字和一张电影暗图，让每一段都像一页摊开的禁书。</p>
+        <div class="meta">16:9 · 1920x1080 · 30fps · 5min</div>
+        <div class="chips"><span class="chip"><i style="background:#000000"></i>黑底 #000000</span><span class="chip"><i style="background:#C9A227"></i>金色 #C9A227</span></div>
+        <div class="tags"><span class="tag">5分钟深度知识</span><span class="tag">社会观察</span><span class="tag">文化史/游戏史</span><span class="tag">横屏长视频</span></div>
+        <div class="links"><a href="卡片/S05-黑金知识解说.md">打开风格卡 (md)</a><a href="预览/S05.jpg" target="_blank">看大图</a></div>
+      </div>
+    </article>
+    <article class="card" data-id="S06" data-text="s06 暖棕电影感 · 实拍长解说 用免版权实拍素材剪出电影感，第二人称把观众拉进问题里，5-8分钟不冷场。 kele说式 暖棕长解说 实拍解说 抖音长解说 5-8分钟长解说 亚文化/社会议题 人物/文化史 标题即出片">
+      <a class="thumb" href="预览/S06.jpg" target="_blank"><img loading="lazy" src="预览/S06.jpg" alt="暖棕电影感 · 实拍长解说"></a>
+      <div class="body">
+        <div class="top"><span class="sid">S06</span><span class="status verified">已验证</span></div>
+        <h2>暖棕电影感 · 实拍长解说</h2>
+        <p class="one">用免版权实拍素材剪出电影感，第二人称把观众拉进问题里，5-8分钟不冷场。</p>
+        <div class="meta">16:9 · 1920x1080 · 30fps · 5-8min</div>
+        <div class="chips"><span class="chip"><i style="background:#2B1D12"></i>暖棕暗部 #2B1D12</span><span class="chip"><i style="background:#C8552B"></i>暖橙高光 #C8552B</span><span class="chip"><i style="background:#D9B8A0"></i>肤色/纸色 #D9B8A0</span></div>
+        <div class="tags"><span class="tag">5-8分钟长解说</span><span class="tag">亚文化/社会议题</span><span class="tag">人物/文化史</span><span class="tag">标题即出片</span></div>
+        <div class="links"><a href="卡片/S06-暖棕电影感.md">打开风格卡 (md)</a><a href="预览/S06.jpg" target="_blank">看大图</a></div>
+      </div>
+    </article>
+    <article class="card" data-id="S07" data-text="s07 巨字卡点 · 角色展示 巨幅英文压在角色脸上，亮底是理想，暗底是现实，一切跟着鼓点切。 mbti人格拟人 巨字卡点 typographic character meme 紫人组黄人组 mbti人格拟人 角色群像 meme/卡点 60s横屏">
+      <a class="thumb" href="预览/S07.jpg" target="_blank"><img loading="lazy" src="预览/S07.jpg" alt="巨字卡点 · 角色展示"></a>
+      <div class="body">
+        <div class="top"><span class="sid">S07</span><span class="status verified">已验证</span></div>
+        <h2>巨字卡点 · 角色展示</h2>
+        <p class="one">巨幅英文压在角色脸上，亮底是理想，暗底是现实，一切跟着鼓点切。</p>
+        <div class="meta">16:9 · 1920x1080 · 30fps · 60s</div>
+        <div class="chips"><span class="chip"><i style="background:#f6f0e2"></i>亮底 #f6f0e2</span><span class="chip"><i style="background:#0b0805"></i>暗底 #0b0805</span><span class="chip"><i style="background:#f2b21c"></i>琥珀金 #f2b21c</span><span class="chip"><i style="background:#1a1208"></i>亮底大字 #1a1208</span><span class="chip"><i style="background:#f4efe4"></i>标题纸白 #f4efe4</span></div>
+        <div class="tags"><span class="tag">MBTI人格拟人</span><span class="tag">角色群像</span><span class="tag">meme/卡点</span><span class="tag">60s横屏</span></div>
+        <div class="links"><a href="卡片/S07-巨字卡点.md">打开风格卡 (md)</a><a href="预览/S07.jpg" target="_blank">看大图</a></div>
+      </div>
+    </article>
+    <article class="card" data-id="S08" data-text="s08 纯黑设备 · app 发布动画 纯黑里慢慢浮出一台手机，屏幕亮起，9屏功能跟着旁白走一遍。 设备mockup发布片 app开场 手机ui巡游 发布会动画 app/小程序发布 功能介绍 众筹页头图 45s横屏">
+      <a class="thumb" href="预览/S08.jpg" target="_blank"><img loading="lazy" src="预览/S08.jpg" alt="纯黑设备 · App 发布动画"></a>
+      <div class="body">
+        <div class="top"><span class="sid">S08</span><span class="status verified">已验证</span></div>
+        <h2>纯黑设备 · App 发布动画</h2>
+        <p class="one">纯黑里慢慢浮出一台手机，屏幕亮起，9屏功能跟着旁白走一遍。</p>
+        <div class="meta">16:9 · 1920x1080 · 30fps · 45s</div>
+        <div class="chips"><span class="chip"><i style="background:#000000"></i>纯黑 #000000</span><span class="chip"><i style="background:#41414a"></i>钛黑中框 #41414a</span><span class="chip"><i style="background:#ffffff"></i>外缘亮线 #ffffff</span></div>
+        <div class="tags"><span class="tag">App/小程序发布</span><span class="tag">功能介绍</span><span class="tag">众筹页头图</span><span class="tag">45s横屏</span></div>
+        <div class="links"><a href="卡片/S08-纯黑设备发布.md">打开风格卡 (md)</a><a href="预览/S08.jpg" target="_blank">看大图</a></div>
+      </div>
+    </article>
+    <article class="card" data-id="S09" data-text="s09 暗室档案馆 · 心理/哲学 近黑底上只放一句话、一个概念、一种信号色；让观众先被打动，再被说服。 dark archive 心理哲学口播 荣格八维视觉系统 心理学解析 哲学追问 mbti/荣格八维 电影人物心理分析">
+      <a class="thumb" href="预览/S09.jpg" target="_blank"><img loading="lazy" src="预览/S09.jpg" alt="暗室档案馆 · 心理/哲学"></a>
+      <div class="body">
+        <div class="top"><span class="sid">S09</span><span class="status spec">规范型</span></div>
+        <h2>暗室档案馆 · 心理/哲学</h2>
+        <p class="one">近黑底上只放一句话、一个概念、一种信号色；让观众先被打动，再被说服。</p>
+        <div class="meta">9:16/16:9 · 1080x1920/1920x1080 · 30fps · 45-150s</div>
+        <div class="chips"><span class="chip"><i style="background:#0B0D10"></i>近黑底 #0B0D10</span><span class="chip"><i style="background:#E8E4DC"></i>纸白 #E8E4DC</span><span class="chip"><i style="background:#E4572E"></i>朱砂A #E4572E</span><span class="chip"><i style="background:#4FB3BF"></i>青B #4FB3BF</span><span class="chip"><i style="background:#C9A227"></i>金C #C9A227</span></div>
+        <div class="tags"><span class="tag">心理学解析</span><span class="tag">哲学追问</span><span class="tag">MBTI/荣格八维</span><span class="tag">电影人物心理分析</span></div>
+        <div class="links"><a href="卡片/S09-暗室档案馆.md">打开风格卡 (md)</a><a href="预览/S09.jpg" target="_blank">看大图</a></div>
+      </div>
+    </article>
+    <article class="card" data-id="S10" data-text="s10 胶片化 · 可叠加滤镜 一条ffmpeg链，把任何ai/实拍素材变成退色、暖高光、泛光、颗粒、暗角的胶片质感。 vintage film look 胶片化 自传微电影调色 2.39:1遮幅 ai视频去数码感 自传微电影 年代戏/回忆 统一多素材影调">
+      <a class="thumb" href="预览/S10.jpg" target="_blank"><img loading="lazy" src="预览/S10.jpg" alt="胶片化 · 可叠加滤镜"></a>
+      <div class="body">
+        <div class="top"><span class="sid">S10</span><span class="status verified">已验证</span></div>
+        <h2>胶片化 · 可叠加滤镜</h2>
+        <p class="one">一条FFmpeg链，把任何AI/实拍素材变成退色、暖高光、泛光、颗粒、暗角的胶片质感。</p>
+        <div class="meta">任意/2.39:1 · 跟随源 · 跟随源fps · 跟随源</div>
+        <div class="chips"><span class="chip"><i style="background:#2B2118"></i>退色暗部 #2B2118</span><span class="chip"><i style="background:#E8C9A0"></i>暖高光 #E8C9A0</span><span class="chip"><i style="background:#7A8F8F"></i>冷阴影 #7A8F8F</span></div>
+        <div class="tags"><span class="tag">AI视频去数码感</span><span class="tag">自传微电影</span><span class="tag">年代戏/回忆</span><span class="tag">统一多素材影调</span></div>
+        <div class="links"><a href="卡片/S10-胶片化滤镜.md">打开风格卡 (md)</a><a href="预览/S10.jpg" target="_blank">看大图</a></div>
+      </div>
+    </article>
+    <article class="card" data-id="S11" data-text="s11 ai 漫剧 · 照片级 3d 21:9 复古未来主义动作短片：长剧本一次喂进去，按 ≤30s 切单元，尾帧接首帧；单次生成 12s 长镜，成片剪到 2–4 秒一刀。 ai漫剧 照片级3d短片 复古未来主义 原子朋克 atompunk 无对白叙事 长剧本一键分镜 尾帧接首帧 3-4分钟无对白短片 漫剧/世界观展示 ip先导片 照片级3d动作戏">
+      <a class="thumb" href="预览/S11.jpg" target="_blank"><img loading="lazy" src="预览/S11.jpg" alt="AI 漫剧 · 照片级 3D"></a>
+      <div class="body">
+        <div class="top"><span class="sid">S11</span><span class="status tested">测试中</span></div>
+        <h2>AI 漫剧 · 照片级 3D</h2>
+        <p class="one">21:9 复古未来主义动作短片：长剧本一次喂进去，按 ≤30s 切单元，尾帧接首帧；单次生成 12s 长镜，成片剪到 2–4 秒一刀。</p>
+        <div class="meta">21:9 创作版 / 16:9 平台导入版 · 3840x1646 或 2560x1080（实测样片 1280x720） · 24fps · 214s（实测样片共 40.2s）</div>
+        <div class="chips"><span class="chip"><i style="background:#DDCFBB"></i>象牙亮部（实测主色 12.8%） #DDCFBB</span><span class="chip"><i style="background:#B3AA9B"></i>沙岩中调（13.6%） #B3AA9B</span><span class="chip"><i style="background:#A07F63"></i>焦糖棕（11.7%） #A07F63</span><span class="chip"><i style="background:#5C4737"></i>胡桃木暗部（13.3%） #5C4737</span><span class="chip"><i style="background:#110603"></i>近黑（13.3%，大部分是皮夹克与阴影） #110603</span><span class="chip"><i style="background:#63BAD2"></i>面屏/水面青光（唯一冷强调） #63BAD2</span><span class="chip"><i style="background:#74363A"></i>围巾砖红（唯一暖强调） #74363A</span></div>
+        <div class="tags"><span class="tag">3-4分钟无对白短片</span><span class="tag">漫剧/世界观展示</span><span class="tag">IP先导片</span><span class="tag">照片级3D动作戏</span></div>
+        <div class="links"><a href="卡片/S11-AI漫剧.md">打开风格卡 (md)</a><a href="预览/S11.jpg" target="_blank">看大图</a></div>
+      </div>
+    </article>
+    <article class="card" data-id="S12" data-text="s12 扁平动态图形 · flat motion graphics 深色底上只用色块、几何和粗字，每 2–3 秒换一个视觉元素，把「讲不清」讲成「一眼懂」。 扁平动效 flat motion graphics 社媒科普动画 startup explainer 30–120秒社媒科普 产品发布/路演 saas 功能说明 数据讲解">
+      <a class="thumb" href="预览/S12.jpg" target="_blank"><img loading="lazy" src="预览/S12.jpg" alt="扁平动态图形 · Flat Motion Graphics"></a>
+      <div class="body">
+        <div class="top"><span class="sid">S12</span><span class="status reference">参考规范</span></div>
+        <h2>扁平动态图形 · Flat Motion Graphics</h2>
+        <p class="one">深色底上只用色块、几何和粗字，每 2–3 秒换一个视觉元素，把「讲不清」讲成「一眼懂」。</p>
+        <div class="meta">16:9 / 9:16 · 1920x1080 · 30fps · 30-120s</div>
+        <div class="chips"><span class="chip"><i style="background:#0F172A"></i>深板岩底 #0F172A</span><span class="chip"><i style="background:#7C3AED"></i>紫 #7C3AED</span><span class="chip"><i style="background:#4F46E5"></i>靛 #4F46E5</span><span class="chip"><i style="background:#EC4899"></i>品红 #EC4899</span><span class="chip"><i style="background:#06B6D4"></i>青 #06B6D4</span><span class="chip"><i style="background:#F8FAFC"></i>近白 #F8FAFC</span></div>
+        <div class="tags"><span class="tag">30–120秒社媒科普</span><span class="tag">产品发布/路演</span><span class="tag">SaaS 功能说明</span><span class="tag">数据讲解</span></div>
+        <div class="links"><a href="卡片/S12-扁平动态图形.md">打开风格卡 (md)</a><a href="预览/S12.jpg" target="_blank">看大图</a></div>
+      </div>
+    </article>
+    <article class="card" data-id="S13" data-text="s13 吉卜力手绘动画 · anime ghibli 水彩边缘 + 明显的前中后景 + 暖金与森林绿；用同一场景 2–3 张微变图交叉淡化假装运动。 吉卜力风 ghibli style 手绘水彩动画 治愈系动画 情感叙事 成长/自然题材 品牌温度片 寓言/儿童内容">
+      <a class="thumb" href="预览/S13.jpg" target="_blank"><img loading="lazy" src="预览/S13.jpg" alt="吉卜力手绘动画 · Anime Ghibli"></a>
+      <div class="body">
+        <div class="top"><span class="sid">S13</span><span class="status reference">参考规范</span></div>
+        <h2>吉卜力手绘动画 · Anime Ghibli</h2>
+        <p class="one">水彩边缘 + 明显的前中后景 + 暖金与森林绿；用同一场景 2–3 张微变图交叉淡化假装运动。</p>
+        <div class="meta">16:9 · 1920x1080 · 24fps · 60-180s</div>
+        <div class="chips"><span class="chip"><i style="background:#0A0A1A"></i>深夜底 #0A0A1A</span><span class="chip"><i style="background:#2D5016"></i>森林绿 #2D5016</span><span class="chip"><i style="background:#1B4332"></i>深林绿 #1B4332</span><span class="chip"><i style="background:#FFB347"></i>暖金 #FFB347</span><span class="chip"><i style="background:#FF6B9D"></i>樱粉 #FF6B9D</span><span class="chip"><i style="background:#A8E6CF"></i>灵光青 #A8E6CF</span><span class="chip"><i style="background:#FFF3B0"></i>暖金白 #FFF3B0</span><span class="chip"><i style="background:#F5F0E8"></i>纸白 #F5F0E8</span></div>
+        <div class="tags"><span class="tag">情感叙事</span><span class="tag">成长/自然题材</span><span class="tag">品牌温度片</span><span class="tag">寓言/儿童内容</span></div>
+        <div class="links"><a href="卡片/S13-吉卜力手绘动画.md">打开风格卡 (md)</a><a href="预览/S13.jpg" target="_blank">看大图</a></div>
+      </div>
+    </article>
+    <article class="card" data-id="S14" data-text="s14 高端极简 · premium minimalist 米白纸面、炭黑字、一点钴蓝；留白不是空，是在说「我很确定」。 高端极简 premium minimal 投资人更新风 editorial minimal 投资人更新 专家解说 产品叙事 高信任发布">
+      <a class="thumb" href="预览/S14.jpg" target="_blank"><img loading="lazy" src="预览/S14.jpg" alt="高端极简 · Premium Minimalist"></a>
+      <div class="body">
+        <div class="top"><span class="sid">S14</span><span class="status reference">参考规范</span></div>
+        <h2>高端极简 · Premium Minimalist</h2>
+        <p class="one">米白纸面、炭黑字、一点钴蓝；留白不是空，是在说「我很确定」。</p>
+        <div class="meta">16:9 · 1920x1080 · 30fps · 45-180s</div>
+        <div class="chips"><span class="chip"><i style="background:#F9FAFB"></i>米白底 #F9FAFB</span><span class="chip"><i style="background:#111827"></i>炭黑 #111827</span><span class="chip"><i style="background:#374151"></i>次级 #374151</span><span class="chip"><i style="background:#6B7280"></i>弱化 #6B7280</span><span class="chip"><i style="background:#2563EB"></i>钴蓝 #2563EB</span><span class="chip"><i style="background:#0F766E"></i>深青 #0F766E</span></div>
+        <div class="tags"><span class="tag">投资人更新</span><span class="tag">专家解说</span><span class="tag">产品叙事</span><span class="tag">高信任发布</span></div>
+        <div class="links"><a href="卡片/S14-高端极简.md">打开风格卡 (md)</a><a href="预览/S14.jpg" target="_blank">看大图</a></div>
+      </div>
+    </article>
+    <article class="card" data-id="S15" data-text="s15 极简图解 · minimalist diagram 浅灰纸面、细黑线、方形节点，全片只有一个红色强调色——像教授在白板上把一件事拆开。 极简图解 技术图解 whiteboard diagram 架构讲解 技术深挖 架构讲解 数学/cs 概念 文档视频">
+      <a class="thumb" href="预览/S15.jpg" target="_blank"><img loading="lazy" src="预览/S15.jpg" alt="极简图解 · Minimalist Diagram"></a>
+      <div class="body">
+        <div class="top"><span class="sid">S15</span><span class="status reference">参考规范</span></div>
+        <h2>极简图解 · Minimalist Diagram</h2>
+        <p class="one">浅灰纸面、细黑线、方形节点，全片只有一个红色强调色——像教授在白板上把一件事拆开。</p>
+        <div class="meta">16:9 · 1920x1080 · 30fps · 60-300s</div>
+        <div class="chips"><span class="chip"><i style="background:#FAFAFA"></i>浅灰纸 #FAFAFA</span><span class="chip"><i style="background:#1A1A2E"></i>主线条 #1A1A2E</span><span class="chip"><i style="background:#16213E"></i>次级 #16213E</span><span class="chip"><i style="background:#E94560"></i>唯一强调红 #E94560</span><span class="chip"><i style="background:#0F3460"></i>结构深蓝 #0F3460</span><span class="chip"><i style="background:#6B7280"></i>弱化 #6B7280</span></div>
+        <div class="tags"><span class="tag">技术深挖</span><span class="tag">架构讲解</span><span class="tag">数学/CS 概念</span><span class="tag">文档视频</span></div>
+        <div class="links"><a href="卡片/S15-极简图解.md">打开风格卡 (md)</a><a href="预览/S15.jpg" target="_blank">看大图</a></div>
+      </div>
+    </article>
+    <article class="card" data-id="S16" data-text="s16 四色人格图鉴 · mbti 职场图鉴 黑底单人 7 秒、道具横排 4 秒、环境横条 3.3 秒；14.3 秒一个人格，99 bpm 不停嘴。 16型人格目录 四色人格 low-poly personality atlas mbti职场图鉴 16型人格/职业图鉴 角色群像目录 60s–4min横屏解说">
+      <a class="thumb" href="预览/S16.jpg" target="_blank"><img loading="lazy" src="预览/S16.jpg" alt="四色人格图鉴 · MBTI 职场图鉴"></a>
+      <div class="body">
+        <div class="top"><span class="sid">S16</span><span class="status verified">已验证</span></div>
+        <h2>四色人格图鉴 · MBTI 职场图鉴</h2>
+        <p class="one">黑底单人 7 秒、道具横排 4 秒、环境横条 3.3 秒；14.3 秒一个人格，99 BPM 不停嘴。</p>
+        <div class="meta">16:9 · 1280x720（可升1920x1080） · 30fps · 60s-4min</div>
+        <div class="chips"><span class="chip"><i style="background:#000000"></i>hero黑底 #000000</span><span class="chip"><i style="background:#E8DB18"></i>强调黄 #E8DB18</span><span class="chip"><i style="background:#4E8A96"></i>SJ青 #4E8A96</span><span class="chip"><i style="background:#6C5071"></i>NT紫 #6C5071</span><span class="chip"><i style="background:#437853"></i>NF绿 #437853</span><span class="chip"><i style="background:#81693A"></i>SP黄 #81693A</span><span class="chip"><i style="background:#D5D8D9"></i>jobs浅灰 #D5D8D9</span></div>
+        <div class="tags"><span class="tag">16型人格/职业图鉴</span><span class="tag">角色群像目录</span><span class="tag">60s–4min横屏解说</span></div>
+        <div class="links"><a href="卡片/S16-四色人格图鉴.md">打开风格卡 (md)</a><a href="预览/S16.jpg" target="_blank">看大图</a></div>
+      </div>
+    </article></main>
+<footer>用法：先选一套 → 打开风格卡 → 复制提示词锚点 → 出片后按「验收数字」核对。不要混用两套视觉系统。<br>
+「参考规范」= 外部成熟规范整理，本机尚无成片；要用它出片，先做一条测试片再升级为已验证。</footer>
+<script>
+const q=document.querySelector('#q'),cards=[...document.querySelectorAll('.card')],count=document.querySelector('#count');
+q.addEventListener('input',()=>{
+  const v=q.value.trim().toLowerCase(); let n=0;
+  cards.forEach(c=>{const hit=!v||c.dataset.text.includes(v);c.style.display=hit?'':'none';if(hit)n++;});
+  count.textContent=n+' 套';
+});
+</script>
+</body></html>
